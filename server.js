@@ -9,7 +9,7 @@ app.use(express.urlencoded({ extended: true }));
 app.get("/", (req, res) => {
   console.log(process.env.SECRET_KEY);
   res.send(
-    ` <h1>Primer deploy en Heroku 💫. App corriendo en puerto: ${PORT}.</h1><h1>Mi clave secreta es: ${process.env.SECRET_KEY}</h1>`
+    ` <h1>Primer deploy en Heroku by Lau💫. App corriendo en puerto: ${PORT}.</h1><h1>Mi clave secreta es: ${process.env.SECRET_KEY}</h1>`
   );
 });
 
